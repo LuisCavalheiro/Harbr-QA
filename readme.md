@@ -34,7 +34,6 @@ Libraries used for API testing:
 ### Setup ###
 - clone repository
 - npm install
-- installing selenium chromedriver
 
 ### Running the tests: ###
 - npm run test-ui
