@@ -1,0 +1,21 @@
+{
+  "name": "Harbr_QA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-api": "cucumber-js.cmd api-test/features",
+    "test-ui": "cucumber-js.cmd ui-test/features"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^89.0.0",
+    "moment": "^2.29.1",
+    "selenium-webdriver": "*",
+    "supertest": "^6.1.3"
+  }
+}
