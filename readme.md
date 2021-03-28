@@ -17,11 +17,10 @@ The files **ui-test/features/ui-test1.feature** contains 1 scenarios:
 - Validating that the company link navigates correctly to the detail page and that the company information is displayed correctly. The test also validate that the **Back to the list** navigates back to the list page. The test iterates over all test data. The system is not able to display the details for company **United Brands**.
 
 ### Notes ###
-The rules for calculating the size of the company are different between UI and API:
+1. The rules for calculating the size of the company are different between UI and API:
 - UI: **Size**: if **# of Employees** is less than or equal 100, size is **Small**; if greater then 10 and less then or equal 1000, **Medium**; otherwise, **Big**
 - API: customer **size** is: **Small**, when **# of employees** is <= 10; **Medium** when it is <= 1000; **Big** otherwise.
-
-- Due to the time constraint I haven't implemented a scenario to validate the contact information structure (Name + Email) or the existence of the default message: No contact info available
+2. Due to the time constraint I haven't implemented a scenario to validate the contact information structure (Name + Email) or the existence of the default message: No contact info available
 
 ### Libraries Used ###
 Libraries used for API testing:
